@@ -24,7 +24,17 @@ This project was designed for clarity, simplicity, and code readability — foll
 git clone https://github.com/minionhub/laravel-task-manager.git
 cd laravel-task-manager
 ```
+Then you can easily generate pplication key, do the migration and run the app locally:
+```bash
+php artisan key:generate
+php artisan migrate
+php artisan serve
+```
+Once run sucessfully: 
 
+👉 http://localhost:8000
+
+Or can execute it in docker. 
 ### 2️⃣ Copy Environment File
 ```bash
 cp .env.example .env
